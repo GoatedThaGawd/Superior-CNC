@@ -12,7 +12,7 @@ Here is how to setup this CNC! (CNC TUT BY GOATED)
 3. CREATE USER 'greek'@'localhost' IDENTIFIED BY '7474ji4j6ti0260ijm6j462';
 4. GRANT ALL PRIVILEGES ON * . * TO 'greek'@'localhost';
 5. FLUSH PRIVILEGES;
-6. exit
+6. exit;
 ---------------------------------------------------------------------------------------------------
 -> Starting Up The cnc.
 1. chmod 777 *
