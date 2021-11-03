@@ -1,0 +1,23 @@
+name=mod
+description=Shows your current plan!
+admin=false
+reseller=false
+vip=true
+================== MENU SPLIT DONE ==================
+<<clear()>>
+
+users add
+users remove <user>
+users vip=true <user>
+users reseller=true <user>
+users admin=true <user>
+users concurrents=number <user>
+users maxtime=number <user>
+users cooldown=number <user>
+sessions message <user> -m <message>
+broadcast <message>
+sessions kick <user>
+users ban
+users unban
+sessions
+users

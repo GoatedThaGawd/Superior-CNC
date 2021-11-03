@@ -1,0 +1,31 @@
+name=reseller
+description=Shows your current plan!
+admin=false
+reseller=true
+vip=false
+================== MENU SPLIT DONE ==================
+<<clear()>>
+
+
+users add
+users remove <user>
+users concurrents=number <user>
+users maxtime=number <user>
+users cooldown=number <user>
+sessions message <user> -m <message>
+broadcast <message>
+sessions kick <user>
+users ban
+users unban
+sessions
+users
+
+
+
+
+
+
+
+
+
+

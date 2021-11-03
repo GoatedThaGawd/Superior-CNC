@@ -1,0 +1,84 @@
+# Greek CNC
+
+- Terminal
+    - Custom virtual terminal
+    - Reject bad input (e.g. arrow keys)
+    - Virtual input buffer (edit with backspace)
+    - Fast & secure
+
+- Attacking
+    - Send to Mirai clients
+    - Send to API's
+    - Max time
+    - Concurrents
+    - Cooldown
+    - Logging to db
+    - Format
+        - [method] [target] [time] [port]
+    - Default Port (Edit in attacks.json)
+        - [method] [target] [time]
+    
+- Sessions
+    - View sessions
+        - Custom ansi table writer
+        - Supports Live Wire Gradient
+    - sessions listids
+        - Custom ansi table writer
+        - Supports Live Wire Gradient
+    - Broadcast
+        - Prints above the prompter
+        - Always in sight
+        - Format
+            - broadcast [message]
+    - Message a certain Session
+        - Prints above the prompter
+        - Always in sight
+        - Format
+            - sessions message [username]@[session-id] [Message]
+    - kick a certain Session
+        - Kicks and removes session from the list
+        - Closes the session instantly
+        - Format
+            - sessions kick [username]@[session-id]
+    - Grab session info
+        - Shows collected information about the session
+        - Shows the Remote Addr and the Session Uptime
+        - Format
+            - sessions info [username]@[session-id]
+- Users
+    - Usernames
+    - Cooldown
+    - Banned
+    - Admin
+    - MaxTime
+    - Concurrents
+    - Add
+    - Remove
+    - Edit
+    - Password hashing
+- UI
+    - Custom UI
+    - Live updatable with the `reload` command
+    - Supporting Terms
+    - Terms, Please note that not all terms will work on some screens
+        - <<$daysleft>>
+        - <<$hoursleft>>
+        - <<$secondsleft>>
+        - <<$myip>>
+        - <<$clear>>
+        - <<$running>>
+        - <<$powersavingmode>>
+        - <<$admin>>
+        - <<$banned>>
+        - <<$reseller>>
+        - <<$vip>>
+        - <<$bypassblacklist>>
+        - <<$maxtime>>
+        - <<$cooldown>>
+        - <<$concurrents>>
+        - <<$maxsessions>>
+        - <<$id>>
+        - <<$powercompression>>
+        - <<$sent>>
+        - <<$mysent>>
+        - <<sleep(time)>>

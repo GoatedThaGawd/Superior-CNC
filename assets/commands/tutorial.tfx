@@ -1,0 +1,8 @@
+name=tutorial
+description=Shows your current plan!
+admin=false
+reseller=false
+vip=false
+================== MENU SPLIT DONE ==================
+\x1b[97mexample: [method] [target] [duration] [port]
+Another: udp-bypass 70.70.70.7 100 80!

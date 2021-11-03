@@ -1,0 +1,8 @@
+name=cnc
+description=Shows your current plan!
+admin=false
+reseller=false
+vip=false
+================== MENU SPLIT DONE ==================
+\x1b[97mThis CNC Is writting from scratch in go by Cali.
+Over 30,000 Lines of code!

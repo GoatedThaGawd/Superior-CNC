@@ -1,0 +1,7 @@
+name=myid
+description=Shows My ID
+admin=false
+reseller=false
+vip=false
+==================== MENU SPLIT DONE ====================
+You id is: <<$id>>
