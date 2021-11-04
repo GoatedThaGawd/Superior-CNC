@@ -14,6 +14,9 @@ Here is how to setup this CNC! (CNC TUT BY GOATED)
 5. FLUSH PRIVILEGES;
 6. exit;
 ---------------------------------------------------------------------------------------------------
+-> Connecting Database.
+1. Edit "config.json" with your db details you created.
+---------------------------------------------------------------------------------------------------
 -> Starting Up The cnc.
 1. chmod 777 *
 2. sudo ./Greek
